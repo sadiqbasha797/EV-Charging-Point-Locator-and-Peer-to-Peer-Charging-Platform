@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>LogBook</title>
+	<title>Add or Remove Input Fields Dynamically</title>
 	<link rel="stylesheet" href=
 "//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href=
@@ -44,11 +44,11 @@
 								</button>
 							</div>
 							<input type="text"
-								class="form-control m-input" placeholder="Enter users Email and Charged %">
-                        
+								class="form-control m-input" placeholder="Enter users Email">
+                                <input type="text"
+								class="form-control n-input" placeholder="Enter % of battery charged">
 						</div>
 					</div>
-                      
 					<div id="newinput"></div>
 					<button id="rowAdder" type="button"
 						class="btn btn-dark">
@@ -74,7 +74,8 @@
 			'<div class="input-group-prepend">' +
 			'<button class="btn btn-danger" id="DeleteRow" type="button">' +
 			'<i class="bi bi-trash"></i> Delete</button> </div>' +
-            '<input type="text" class="form-control m-input" placeholder="enter user email and charged %"> </div>'
+            '<input type="text" class="form-control m-input" placeholder="enter user email"> </div>'+
+			'<input type="text" class="form-control n-input" placeholder="enter % of battery charged"> </div> </div>';
 
 			$('#newinput').append(newRowAdd);
 		});
