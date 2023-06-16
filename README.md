@@ -1,0 +1,2 @@
+# EV-Charging-Point-Locator-and-Peer-to-Peer-Charging-Platform
+By providing a user-friendly interface to locate charging points and facilitating peer-to-peer charging connections, this project aims to contribute to the growth of sustainable transportation and create a more interconnected EV community. Together, we can make electric vehicle charging more accessible, efficient, and environmentally friendly.
